@@ -499,7 +499,7 @@ if '__main__' == __name__:
                         show_time=True,  # 是否打印预处理和推理时间
                         )
     # 2.读取图片
-    image = cv2.imread('./test.jpg')
+    image = cv2.imread('./demo.jpg')
 
     # 3.输出关键点检测推理结果
     # 格式：
